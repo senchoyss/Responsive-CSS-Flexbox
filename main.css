@@ -1,0 +1,72 @@
+ *   {
+    
+        box-sizing: "border-box";
+        padding: 0;
+        margin: 0;
+}
+
+
+
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background:rgb(255, 255, 255);
+    width: 300px;
+    height: 900px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: white;
+    height: 500px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.card-1 {
+    background-image: url('https://images.unsplash.com/photo-1715412406838-93eed8537465?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.card-2 {
+    background-image: url('https://images.unsplash.com/photo-1715412406413-e689dba31597?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D');
+}
+
+.card-3 {
+    background-image: url('https://images.unsplash.com/photo-1715412406795-c9ddbcef7146?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(49, 46, 46);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
